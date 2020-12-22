@@ -14,13 +14,13 @@ class App extends React.Component {
           <div className="d-flex flex-column">
 
             <div className="profile">
-              <img src={require("../src/img/profile/profile-img.jpg")} style={{width: 130, height: 120, borderRadius: 400/ 2}}  alt="" className="img-fluid" />
+              <img src={require("../src/img/profile/profile-img.jpg")} style={{ width: 100, height: 90, borderRadius: 400 / 2 }} alt="" className="img-fluid" />
               <h1 className="text-light"><a href="index.html">Daniel Pullara</a></h1>
               <div className="social-links mt-3 text-center">
 
                 <a href="https://www.instagram.com/danpullara/" className="instagram"><i className="bx bxl-instagram"></i></a>
 
-                <a href="https://www.linkedin.com/feed/?trk=onboarding-landing" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-pullara-372883101/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
 
                 <a href="https://github.com/danielpullara" className="github"><i className="bx bxl-github"></i></a>
               </div>
@@ -46,8 +46,8 @@ class App extends React.Component {
         {/* <!-- ======= Hero Section ======= --> */}
         <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
           <div className="hero-container" data-aos="fade-in">
-            <h1>Daniel Pullara</h1>
-            <p>I'm a Web Developer<span className="typed" data-typed-items=" Web Developer, Commercial Drone Pilot, Photographer"></span></p>
+
+            <p><span className="typed" data-typed-items=" Web Developer, Commercial Drone Pilot, Photographer"></span></p>
           </div>
         </section>
         {/* <-- End Hero --> */}
@@ -60,7 +60,7 @@ class App extends React.Component {
 
               <div className="section-title">
                 <h2>About</h2>
-                <p>As a Full Stack web-developer I create responsive layout through a variety of computer languages, such as HTML or JavaScript.</p>
+                <p>Filling the niche between hard and soft skills. A lifelong student facinated with figuring out how the world works.</p>
               </div>
 
               <div className="row">
@@ -68,11 +68,11 @@ class App extends React.Component {
                   <img src={require("./img/profile/profile-img.jpg")} className="img-fluid" alt="" />
                 </div>
                 <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                  <h3>UI/UX Designer &amp; Web Developer.</h3>
+                  <h3>Full Stack Coder &amp; Business Developer </h3>
                   <div className="row">
                     <div className="col-lg-6">
                       <ul>
-                        <li><i className="icofont-rounded-right"></i> <strong>Birthday:</strong> September 8th 1992</li>
+                        
                         <li><i className="icofont-rounded-right"></i> <strong>Website:</strong> dronesinhawaii.com</li>
                         <li><i className="icofont-rounded-right"></i> <strong>Phone:</strong> +1(415)-351-8738</li>
                         <li><i className="icofont-rounded-right"></i> <strong>City:</strong> Honolulu, USA</li>
@@ -80,14 +80,15 @@ class App extends React.Component {
                     </div>
                     <div className="col-lg-6">
                       <ul>
+                      <li><i className="icofont-rounded-right"></i> <strong>Birthday:</strong> September 8th 1992</li>
                         <li><i className="icofont-rounded-right"></i> <strong>Age:</strong> 28</li>
                         <li><i className="icofont-rounded-right"></i> <strong>Email:</strong> info@dronesinhawaii.com</li>
-                        <li><i className="icofont-rounded-right"></i> <strong>Desired Position</strong> Full-Time Junior Developer</li>
                       </ul>
                     </div>
                   </div>
                   <p>
-                    Former account-executive seeking new challenges to develop clean functional code for Tech Company.  I want to surround myself with programmers and professionals who want to excel and evolve.
+                    Multi-talented content creator with a passion for technology. Experienced with React basics and a special interest in Node.js. FAA PART 107 Commercial Drone Pilot. Bi-Lingual first generation American.
+
             </p>
                 </div>
               </div>
@@ -117,15 +118,15 @@ class App extends React.Component {
                 <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
                   <div className="count-box">
                     <i className="icofont-code-alt"></i>
-                    <span data-toggle="counter-up">3</span>
-                    <p><strong>Languages</strong> HTML/CSS/JS</p>
+                    <span data-toggle="counter-up">5</span>
+                    <p><strong>Languages & Frameworks</strong> HTML/CSS/JS/React.js/Node.js</p>
                   </div>
                 </div>
 
                 <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
                   <div className="count-box">
                     <i className="icofont-clock-time"></i>
-                    <span data-toggle="counter-up">+2.5</span>
+                    <span data-toggle="counter-up">+3</span>
                     <p><strong>Years</strong> In Corperate Tech Industry</p>
                   </div>
                 </div>
@@ -148,7 +149,7 @@ class App extends React.Component {
 
               <div className="section-title">
                 <h2>Skills</h2>
-                <p> Commercial UAS pilot experienced working with the following: Visual Studio, Terminal, Github, Netlify, Zoom, iMovie, Premier Pro, OAuth, API Configuration, FileZilla, Discord, React, DJI GO 4 </p>
+                <p>Visual Studio, Terminal, Github, Netlify, Heroku. HTML, CSS, JS, REACT.JS & NODE.JS </p>
               </div>
 
               <div className="row skills-content">
@@ -169,25 +170,26 @@ class App extends React.Component {
                     </div>
                   </div>
 
+
+
+                </div>
+
+                <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                   <div className="progress">
-                    <span className="skill">Javascript & React JS <i className="val">40%</i></span>
+                    <span className="skill"> React.js <i className="val">50%</i></span>
                     <div className="progress-bar-wrap">
                       <div className="progress-bar" style={{ width: '40%' }} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
 
-                </div>
-
-                <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
                   <div className="progress">
-                    <span className="skill">Teamwork<i className="val">50%</i></span>
+                    <span className="skill">Node.js<i className="val">65%</i></span>
                     <div className="progress-bar-wrap">
                       <div className="progress-bar" style={{ width: '50%' }} role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
 
-                  <div className="progress">
+                  {/* <div className="progress">
                     <span className="skill">Presentation skills<i className="val">50%</i></span>
                     <div className="progress-bar-wrap">
                       <div className="progress-bar" style={{ width: '50%' }} role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
@@ -199,7 +201,7 @@ class App extends React.Component {
                     <div className="progress-bar-wrap">
                       <div className="progress-bar" style={{ width: '55%' }} role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                  </div>
+                  </div> */}
 
                 </div>
 
@@ -279,7 +281,7 @@ class App extends React.Component {
             <div className="container">
 
               <div className="section-title">
-                <h2>Portfolio</h2>
+                <h2>My Portfolio</h2>
                 <p></p>
               </div>
 
@@ -335,8 +337,8 @@ class App extends React.Component {
                     <img src={require("../src/img/portfolio/portfolio-4.jpg")} className="img-fluid" alt="" />
                     <div className="portfolio-links">
                       {/* <a href="https://quirky-torvalds-1b13a2.netlify.com" data-gall="portfolioGallery" className="venobox" title="App 1"><i className="bx bx-plus"></i></a> */}
-                      <a href="https://wonderful-mclean-03a16b.netlify.com" title="More Details"><i className="bx bx-plus"></i></a>
-                      <a href="https://github.com/danielpullara/tic-tac-toe.git" title="More Details"><i className="bx bx-link"></i></a>
+                      <a href="https://dronesinhawaiivideoserver.netlify.app" title="More Details"><i className="bx bx-plus"></i></a>
+                      <a href="https://github.com/danielpullara/videoserver" title="More Details"><i className="bx bx-link"></i></a>
                     </div>
                   </div>
                 </div>
@@ -434,6 +436,7 @@ class App extends React.Component {
               <div className="row" data-aos="fade-in">
 
                 <div className="col-12" >
+                  
                   <div className="info" >
                     <div className="address">
                       <h4>Location:</h4>
